@@ -1,0 +1,178 @@
+{
+  "reportId": "rpt_axv_2026_001",
+  "createdAt": "2026-02-16T10:30:00Z",
+  "version": "2.1.0",
+  "confidenceScore": 87,
+  "overallScore": 72,
+  "categories": [
+    { "name": "Structure", "score": 74, "weight": 30 },
+    { "name": "Symmetry", "score": 69, "weight": 20 },
+    { "name": "Relationships", "score": 71, "weight": 20 },
+    { "name": "Skin", "score": 78, "weight": 15 },
+    { "name": "Expression", "score": 68, "weight": 10 },
+    { "name": "Contrast", "score": 73, "weight": 5 }
+  ],
+  "deviationSummary": [
+    { "metric": "Lower third proportion", "deviationPct": -4.2, "impact": "High" },
+    { "metric": "Nasal bridge width", "deviationPct": 6.1, "impact": "Medium" },
+    { "metric": "Eye spacing ratio", "deviationPct": -3.8, "impact": "Medium" },
+    { "metric": "Mandibular angle", "deviationPct": 5.5, "impact": "Low" },
+    { "metric": "Lip vermilion ratio", "deviationPct": -7.3, "impact": "High" }
+  ],
+  "thirds": {
+    "upper": 31.2,
+    "mid": 35.6,
+    "lower": 33.2,
+    "idealRange": [32, 34]
+  },
+  "fifths": {
+    "segments": [19.1, 20.8, 21.2, 19.6, 19.3],
+    "idealRange": [19, 21]
+  },
+  "symmetry": [
+    { "area": "Orbital", "deviationPct": 2.1 },
+    { "area": "Nasal", "deviationPct": 3.4 },
+    { "area": "Zygomatic", "deviationPct": 1.8 },
+    { "area": "Mandibular", "deviationPct": 4.2 },
+    { "area": "Labial", "deviationPct": 2.7 },
+    { "area": "Auricular", "deviationPct": 5.1 }
+  ],
+  "relationships": [
+    {
+      "pair": "Eye Spacing : Nose Width",
+      "yourRatio": 1.38,
+      "idealMin": 1.0,
+      "idealMax": 1.05,
+      "impact": "Nasal bridge reads wider relative to interocular distance, reducing midface harmony.",
+      "explanation": "The ratio between inner canthal distance and alar base width ideally approaches 1:1. A ratio of 1.38 indicates the nasal base extends beyond the medial canthi, creating visual width in the midface.",
+      "levers": ["Contour grooming at nasal sidewall", "Brow grooming to widen perceived eye spacing", "Highlight bridge to narrow perception"]
+    },
+    {
+      "pair": "Lip Height : Nose Length",
+      "yourRatio": 0.48,
+      "idealMin": 0.50,
+      "idealMax": 0.55,
+      "impact": "Slight vertical compression between nose base and lip creates a subtly shortened philtral impression.",
+      "explanation": "The vermilion height to nasal length ratio indicates whether the lower midface reads proportional. At 0.48, the lips read slightly thin relative to nasal projection.",
+      "levers": ["Lip care routine to enhance definition", "Philtrum-highlighting grooming", "Hydration for volume"]
+    },
+    {
+      "pair": "Jaw Width : Cheekbone Width",
+      "yourRatio": 0.82,
+      "idealMin": 0.75,
+      "idealMax": 0.80,
+      "impact": "Jaw width slightly exceeds ideal relative to cheekbone projection, creating a bottom-heavy read.",
+      "explanation": "The bigonial to bizygomatic width ratio determines facial taper. At 0.82, the lower face reads marginally wider than optimal for a tapered silhouette.",
+      "levers": ["Jawline contouring techniques", "Hairstyle framing to balance width", "Weight management for facial definition"]
+    },
+    {
+      "pair": "Forehead Height : Face Length",
+      "yourRatio": 0.31,
+      "idealMin": 0.32,
+      "idealMax": 0.34,
+      "impact": "Upper third reads marginally short, shifting visual centre of gravity downward.",
+      "explanation": "The trichion-to-glabella height as a proportion of total facial length. At 0.31, the upper third is slightly compressed compared to the classical ideal.",
+      "levers": ["Hairstyle with volume at crown", "Forehead-framing grooming", "Brow position optimisation"]
+    },
+    {
+      "pair": "Brow to Eye Distance : Eye Height",
+      "yourRatio": 1.62,
+      "idealMin": 1.50,
+      "idealMax": 1.70,
+      "impact": "Within tolerance band. Brow-to-lid proportion reads balanced.",
+      "explanation": "The supraorbital-to-palpebral ratio measures the vertical space between brow ridge and upper eyelid relative to the palpebral fissure height. At 1.62, this falls squarely within the ideal band.",
+      "levers": ["Maintain current brow grooming", "No intervention required"]
+    },
+    {
+      "pair": "Chin Projection : Lip Projection",
+      "yourRatio": 0.91,
+      "idealMin": 0.95,
+      "idealMax": 1.05,
+      "impact": "Chin reads slightly recessed relative to lip projection, affecting lower profile balance.",
+      "explanation": "Measured from the Ricketts E-line perspective, the chin-to-lip projection ratio indicates lower facial profile harmony. At 0.91, the chin sits marginally behind the ideal plane.",
+      "levers": ["Posture correction", "Jaw exercise routine", "Facial hair to adjust visual projection"]
+    }
+  ],
+  "skinIndex": [
+    {
+      "category": "Texture",
+      "score": 76,
+      "explanation": "Surface texture reads moderately even with minor textural irregularity in the T-zone region. Pore appearance is within normal variance for age bracket.",
+      "recommendations": ["Chemical exfoliant (AHA/BHA) 2-3x weekly", "Niacinamide serum for pore refinement", "SPF 50 daily to prevent texture degradation"],
+      "timeToResult": "6-8 weeks"
+    },
+    {
+      "category": "Tone",
+      "score": 80,
+      "explanation": "Overall chromatic consistency is good with mild hyperpigmentation noted around the perioral region. No significant erythema detected.",
+      "recommendations": ["Vitamin C serum (15-20% L-ascorbic acid)", "Consistent sun protection", "Gentle brightening agent (alpha arbutin)"],
+      "timeToResult": "8-12 weeks"
+    },
+    {
+      "category": "Radiance",
+      "score": 72,
+      "explanation": "Skin luminosity reads slightly below optimal, suggesting mild dehydration or barrier compromise. Surface reflection is uneven.",
+      "recommendations": ["Hyaluronic acid layering technique", "Ceramide-rich moisturiser", "Weekly hydrating mask"],
+      "timeToResult": "2-4 weeks"
+    },
+    {
+      "category": "Contrast",
+      "score": 77,
+      "explanation": "Feature-to-skin contrast ratio is moderate. Eyebrow-to-skin and lip-to-skin contrast provide adequate facial feature definition.",
+      "recommendations": ["Brow grooming to enhance definition", "Lip care routine for natural colour enhancement", "Consistent skincare to maintain even backdrop"],
+      "timeToResult": "4-6 weeks"
+    },
+    {
+      "category": "Pore Visibility",
+      "score": 74,
+      "explanation": "Pore appearance is moderately visible in the nasal and cheek regions. Within expected variance but with room for improvement through topical intervention.",
+      "recommendations": ["Salicylic acid cleanser", "Retinoid introduction (start low, 0.025%)", "Clay mask weekly for pore refinement"],
+      "timeToResult": "8-12 weeks"
+    }
+  ],
+  "expressionIndices": [
+    { "name": "Softness vs Definition", "value": 42, "explanation": "Structural configuration leans toward moderate softness in contour lines, driven by rounded mandibular angle and moderate buccal fullness. Definition reads most clearly at the brow ridge and nasal bridge." },
+    { "name": "Warmth vs Intensity", "value": 58, "explanation": "Features read as moderately warm. Larger palpebral fissure height and gentle canthal tilt contribute to an approachable structural read. Intensity is moderated by soft orbital framing." },
+    { "name": "Masculine vs Feminine Spectrum", "value": 45, "explanation": "Structural markers distribute near the androgynous midpoint. Brow ridge prominence and jaw width lean slightly masculine; lip fullness and eye shape provide balancing feminine structural cues." }
+  ],
+  "metrics": [
+    { "id": "m001", "name": "Canthal Tilt", "yourValue": 4.2, "unit": "degrees", "idealMin": 4.0, "idealMax": 8.0, "deviationPct": 0, "impactWeight": "High", "changeability": "Low", "explanation": "The angle from medial to lateral canthus. Within tolerance band at 4.2 degrees. Positive canthal tilt contributes to perceived alertness and youthful structure.", "levers": ["Brow positioning", "Periorbital care"] },
+    { "id": "m002", "name": "Palpebral Fissure Width", "yourValue": 28.1, "unit": "mm", "idealMin": 27.0, "idealMax": 32.0, "deviationPct": 0, "impactWeight": "Medium", "changeability": "Low", "explanation": "Horizontal eye opening width. At 28.1mm, falls within the normal range. Width interacts with interocular distance to determine midface proportional reading.", "levers": ["No structural intervention possible"] },
+    { "id": "m003", "name": "Upper Eyelid Exposure", "yourValue": 2.8, "unit": "mm", "idealMin": 1.5, "idealMax": 3.5, "deviationPct": 0, "impactWeight": "Medium", "changeability": "Low", "explanation": "Visible skin between brow and upper lid crease. At 2.8mm, proportional and indicating no significant ptosis or excess exposure.", "levers": ["Brow grooming to frame exposure"] },
+    { "id": "m004", "name": "Eye Spacing Ratio", "yourValue": 1.04, "unit": "ratio", "idealMin": 0.95, "idealMax": 1.05, "deviationPct": 0, "impactWeight": "High", "changeability": "Low", "explanation": "Interocular distance as ratio of eye width. At 1.04, the spacing is within the golden proportion band.", "levers": ["Brow grooming for visual adjustment"] },
+    { "id": "m005", "name": "Nasofrontal Angle", "yourValue": 138, "unit": "degrees", "idealMin": 130, "idealMax": 140, "deviationPct": 0, "impactWeight": "Medium", "changeability": "Low", "explanation": "The angle at the junction of forehead and nasal dorsum. At 138 degrees, sits within the ideal range indicating smooth forehead-to-nose transition.", "levers": ["No intervention required"] },
+    { "id": "m006", "name": "Nasal Bridge Width", "yourValue": 16.8, "unit": "mm", "idealMin": 14.0, "idealMax": 16.0, "deviationPct": 6.1, "impactWeight": "Medium", "changeability": "Low", "explanation": "Width at the narrowest point of the nasal dorsum. At 16.8mm, reads 6.1% wider than the upper tolerance band, contributing to visual width in the midface.", "levers": ["Contour grooming", "Highlighting techniques"] },
+    { "id": "m007", "name": "Nasal Tip Projection", "yourValue": 22.4, "unit": "mm", "idealMin": 20.0, "idealMax": 24.0, "deviationPct": 0, "impactWeight": "High", "changeability": "Low", "explanation": "Anterior projection of nasal tip from alar base plane. Within ideal band, contributing to balanced midface profile.", "levers": ["No intervention required"] },
+    { "id": "m008", "name": "Alar Base Width", "yourValue": 37.2, "unit": "mm", "idealMin": 32.0, "idealMax": 36.0, "deviationPct": 3.3, "impactWeight": "Medium", "changeability": "Low", "explanation": "Width across nostril base. At 37.2mm, slightly exceeds the upper band. Interacts with interocular distance ratio.", "levers": ["Contour techniques", "No structural change possible without intervention"] },
+    { "id": "m009", "name": "Upper Lip Volume", "yourValue": 6.2, "unit": "mm", "idealMin": 7.0, "idealMax": 9.0, "deviationPct": -7.3, "impactWeight": "High", "changeability": "Medium", "explanation": "Vertical height of upper vermilion. At 6.2mm, reads below ideal band. The upper-to-lower lip ratio is consequently shifted, affecting labial balance.", "levers": ["Lip care and hydration", "Exfoliation for definition", "Optional: aesthetic enhancement"] },
+    { "id": "m010", "name": "Vermilion Ratio", "yourValue": 0.58, "unit": "ratio", "idealMin": 0.65, "idealMax": 0.75, "deviationPct": -7.3, "impactWeight": "High", "changeability": "Medium", "explanation": "Upper to lower lip height ratio. At 0.58, indicates relative upper lip thinness. Ideally the upper lip is 65-75% of lower lip height.", "levers": ["Hydration routine", "Lip plumping care products", "Exfoliation and definition"] },
+    { "id": "m011", "name": "Philtrum Length", "yourValue": 14.8, "unit": "mm", "idealMin": 12.0, "idealMax": 15.0, "deviationPct": 0, "impactWeight": "Medium", "changeability": "Low", "explanation": "Distance from nasal base to upper lip border. At 14.8mm, within tolerance but at the upper end, which can reduce perceived lip prominence.", "levers": ["Lip definition techniques"] },
+    { "id": "m012", "name": "Facial Width-Height Ratio", "yourValue": 1.88, "unit": "ratio", "idealMin": 1.80, "idealMax": 2.00, "deviationPct": 0, "impactWeight": "High", "changeability": "Low", "explanation": "Bizygomatic width to nasion-gnathion height. At 1.88, squarely within the golden proportion band for facial rectangularity.", "levers": ["No intervention needed"] },
+    { "id": "m013", "name": "Cheekbone Prominence", "yourValue": 71, "unit": "score", "idealMin": 70, "idealMax": 85, "deviationPct": 0, "impactWeight": "High", "changeability": "Low", "explanation": "Relative zygomatic projection. At 71, reads at the lower end of ideal. Adequate but not prominent, creating a subtler midface contour.", "levers": ["Weight management", "Facial exercise", "Hairstyle framing"] },
+    { "id": "m014", "name": "Mandibular Angle", "yourValue": 122, "unit": "degrees", "idealMin": 115, "idealMax": 125, "deviationPct": 0, "impactWeight": "High", "changeability": "Low", "explanation": "Angle at the mandibular gonion. At 122 degrees, within range. Contributes to the moderate softness in jawline definition.", "levers": ["Jaw exercise", "Lean body composition", "Grooming techniques"] },
+    { "id": "m015", "name": "Jawline Definition", "yourValue": 64, "unit": "score", "idealMin": 70, "idealMax": 90, "deviationPct": -8.6, "impactWeight": "High", "changeability": "Medium", "explanation": "Overall jawline sharpness and cervical definition. At 64, reads below ideal, likely due to submental fullness or soft tissue laxity obscuring the mandibular border.", "levers": ["Body composition optimisation", "Jaw exercise routine", "Posture correction", "Gua sha or lymphatic techniques"] },
+    { "id": "m016", "name": "Chin Projection", "yourValue": 88, "unit": "% of ideal", "idealMin": 95, "idealMax": 105, "deviationPct": -7.4, "impactWeight": "Medium", "changeability": "Low", "explanation": "Anterior chin projection relative to the Ricketts E-line. At 88%, the chin reads as mildly recessed, affecting lower facial profile balance.", "levers": ["Posture improvement", "Facial hair styling", "Optional: aesthetic consideration"] },
+    { "id": "m017", "name": "Facial Thirds - Upper", "yourValue": 31.2, "unit": "%", "idealMin": 32, "idealMax": 34, "deviationPct": -2.5, "impactWeight": "High", "changeability": "Low", "explanation": "Upper third (trichion to glabella) proportion. At 31.2%, slightly compressed. This shifts the visual centre of gravity downward.", "levers": ["Hairstyle with crown volume", "Forehead-framing techniques"] },
+    { "id": "m018", "name": "Facial Thirds - Middle", "yourValue": 35.6, "unit": "%", "idealMin": 32, "idealMax": 34, "deviationPct": 4.7, "impactWeight": "High", "changeability": "Low", "explanation": "Middle third (glabella to subnasale) reads slightly elongated at 35.6%. This is the most common deviation pattern and affects midface proportion.", "levers": ["Brow position optimisation", "Nasal grooming"] },
+    { "id": "m019", "name": "Facial Thirds - Lower", "yourValue": 33.2, "unit": "%", "idealMin": 32, "idealMax": 34, "deviationPct": 0, "impactWeight": "High", "changeability": "Low", "explanation": "Lower third (subnasale to menton) at 33.2% falls within the ideal band. Good vertical proportion in the lower face.", "levers": ["Maintain current balance"] },
+    { "id": "m020", "name": "Golden Ratio Adherence", "yourValue": 78, "unit": "score", "idealMin": 75, "idealMax": 95, "deviationPct": 0, "impactWeight": "High", "changeability": "Low", "explanation": "Composite score measuring adherence to phi (1.618) across multiple facial proportion pairs. At 78, indicates moderate alignment with classical proportional ideals.", "levers": ["Grooming to enhance proportional perception"] },
+    { "id": "m021", "name": "Vertical Symmetry", "yourValue": 93.2, "unit": "%", "idealMin": 95, "idealMax": 100, "deviationPct": -1.9, "impactWeight": "Medium", "changeability": "Low", "explanation": "Bilateral vertical alignment of paired features. At 93.2%, a slight but normal asymmetry exists, most visible in the orbital region.", "levers": ["Brow grooming for visual equalisation", "Hairstyle asymmetry compensation"] },
+    { "id": "m022", "name": "Horizontal Symmetry", "yourValue": 94.8, "unit": "%", "idealMin": 95, "idealMax": 100, "deviationPct": -0.2, "impactWeight": "Medium", "changeability": "Low", "explanation": "Bilateral horizontal alignment. At 94.8%, essentially within tolerance. Minor asymmetry is biologically expected and often imperceptible.", "levers": ["No intervention recommended"] },
+    { "id": "m023", "name": "Texture Uniformity", "yourValue": 76, "unit": "score", "idealMin": 80, "idealMax": 95, "deviationPct": -5.0, "impactWeight": "Medium", "changeability": "High", "explanation": "Surface texture evenness across facial zones. At 76, mild textural inconsistency in the T-zone. This is the most changeable skin metric.", "levers": ["Chemical exfoliation", "Retinoid introduction", "Professional facial treatments"] },
+    { "id": "m024", "name": "Tone Evenness", "yourValue": 80, "unit": "score", "idealMin": 80, "idealMax": 95, "deviationPct": 0, "impactWeight": "Medium", "changeability": "High", "explanation": "Chromatic consistency across facial surface. At 80, sits at the lower edge of ideal with mild perioral variation noted.", "levers": ["Vitamin C serum", "Sun protection", "Brightening agents"] },
+    { "id": "m025", "name": "Overall Radiance", "yourValue": 72, "unit": "score", "idealMin": 75, "idealMax": 90, "deviationPct": -4.0, "impactWeight": "Low", "changeability": "High", "explanation": "Surface luminosity and light reflection quality. At 72, suggests mild barrier compromise or dehydration affecting skin's optical properties.", "levers": ["Hyaluronic acid", "Ceramide moisturiser", "Adequate water intake", "Sleep optimisation"] },
+    { "id": "m026", "name": "Under-Eye Area", "yourValue": 68, "unit": "score", "idealMin": 70, "idealMax": 90, "deviationPct": -2.9, "impactWeight": "Medium", "changeability": "Medium", "explanation": "Periorbital skin quality including hollowing, pigmentation, and puffiness assessment. At 68, mild infraorbital shadowing present, likely circulatory or genetic in origin.", "levers": ["Caffeine eye products", "Sleep quality improvement", "Cold compress routine", "Retinol eye treatment"] },
+    { "id": "m027", "name": "Lip Symmetry", "yourValue": 91, "unit": "%", "idealMin": 95, "idealMax": 100, "deviationPct": -4.2, "impactWeight": "Low", "changeability": "Low", "explanation": "Bilateral labial symmetry. At 91%, a slight asymmetry in commissure height. Common and rarely perceptible in motion.", "levers": ["Lip care for evenness", "No significant intervention needed"] },
+    { "id": "m028", "name": "Brow Symmetry", "yourValue": 89, "unit": "%", "idealMin": 90, "idealMax": 100, "deviationPct": -1.1, "impactWeight": "Medium", "changeability": "High", "explanation": "Bilateral eyebrow position and shape symmetry. At 89%, slight height difference between left and right brow. Highly correctable through grooming.", "levers": ["Professional brow shaping", "Brow mapping technique", "Selective trimming"] }
+  ],
+  "recommendations": [
+    { "id": "r001", "title": "Skincare foundation protocol", "category": "Skincare", "difficulty": "Easy", "timeline": "2-4 weeks for initial results", "expectedImpact": 3, "steps": ["Introduce gentle cleanser (pH 5.5)", "Layer hyaluronic acid on damp skin", "Apply niacinamide 10% serum", "Seal with ceramide moisturiser", "SPF 50 every morning without exception"] },
+    { "id": "r002", "title": "Brow architecture optimisation", "category": "Grooming", "difficulty": "Easy", "timeline": "Immediate impact", "expectedImpact": 2, "steps": ["Map brows using nose-bridge alignment method", "Address height asymmetry by removing 1-2mm from higher brow", "Clean below arch line only", "Maintain natural thickness — avoid over-plucking", "Brush upward daily with clear gel"] },
+    { "id": "r003", "title": "Jawline definition programme", "category": "Lifestyle", "difficulty": "Moderate", "timeline": "3-6 months", "expectedImpact": 4, "steps": ["Reduce overall body fat percentage by 3-5%", "Mewing technique: tongue posture against palate", "Jaw resistance exercises 3x weekly", "Gua sha along mandibular border daily", "Improve posture — forward head posture worsens cervical definition"] },
+    { "id": "r004", "title": "Lip care and definition routine", "category": "Skincare", "difficulty": "Easy", "timeline": "2-6 weeks", "expectedImpact": 2, "steps": ["Exfoliate lips weekly with sugar scrub", "Apply peptide lip treatment nightly", "Hydrate with hyaluronic acid lip product", "SPF lip balm during day", "Avoid licking — compromises barrier"] },
+    { "id": "r005", "title": "Hairstyle optimisation for facial framing", "category": "Grooming", "difficulty": "Easy", "timeline": "Immediate", "expectedImpact": 3, "steps": ["Add volume at crown to compensate upper third compression", "Avoid flat styles that emphasise forehead proportion", "Side-part to create asymmetric visual interest", "Texture at temples to soften jaw-width perception", "Consult stylist with reference to face-shape framing"] },
+    { "id": "r006", "title": "Sleep and recovery optimisation", "category": "Lifestyle", "difficulty": "Moderate", "timeline": "4-8 weeks", "expectedImpact": 3, "steps": ["Target 7-9 hours consistently", "Sleep on back to prevent facial compression asymmetry", "Elevate head slightly to reduce periorbital puffiness", "No screens 1 hour before bed", "Cool, dark room — melatonin optimisation"] },
+    { "id": "r007", "title": "Advanced retinoid introduction", "category": "Skincare", "difficulty": "Moderate", "timeline": "8-12 weeks", "expectedImpact": 3, "steps": ["Start with 0.025% tretinoin or adapalene", "Apply pea-sized amount every 3rd night initially", "Buffer with moisturiser first for 4 weeks", "Increase to alternate nights after 6 weeks", "Mandatory SPF — photosensitivity is real"] },
+    { "id": "r008", "title": "Hydration and nutrition protocol", "category": "Lifestyle", "difficulty": "Easy", "timeline": "2-4 weeks", "expectedImpact": 2, "steps": ["Minimum 2.5L water daily", "Omega-3 supplementation (fish oil or algae)", "Reduce refined sugar — glycation ages skin", "Collagen peptide supplementation (5-10g daily)", "Antioxidant-rich diet — berries, green tea, dark vegetables"] }
+  ]
+}
