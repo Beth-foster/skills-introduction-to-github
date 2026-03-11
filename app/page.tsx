@@ -5,7 +5,6 @@ import { AnalysisDepth } from "@/components/landing/analysis-depth"
 import { Methodology } from "@/components/landing/methodology"
 import { HowItWorks } from "@/components/landing/how-it-works"
 import { Ethics } from "@/components/landing/ethics"
-import { SampleReport } from "@/components/landing/sample-report"
 import { Footer } from "@/components/landing/footer"
 
 export default function LandingPage() {
@@ -17,7 +16,6 @@ export default function LandingPage() {
       <AnalysisDepth />
       <Methodology />
       <HowItWorks />
-      <SampleReport />
       <Ethics />
       <Footer />
     </main>
