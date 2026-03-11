@@ -21,18 +21,21 @@ const steps = [
     ],
     timing: "2 minutes",
     visual: (
-      <div className="grid grid-cols-4 gap-1.5">
-        {[...Array(8)].map((_, i) => (
-          <div 
-            key={i} 
-            className={cn(
-              "aspect-square rounded-md border-2 border-dashed flex items-center justify-center text-xs",
-              i < 4 ? "border-foreground/40 bg-foreground/5" : "border-border"
-            )}
-          >
-            {i < 4 ? <Check className="w-3 h-3 text-foreground/60" /> : <span className="text-muted-foreground/40">+</span>}
-          </div>
-        ))}
+      <div className="space-y-3">
+        <div className="grid grid-cols-2 gap-2">
+          {["Front", "3/4 Left", "3/4 Right", "Side"].map((angle) => (
+            <div 
+              key={angle} 
+              className="aspect-square rounded-lg border border-foreground/30 bg-foreground/5 flex items-center justify-center"
+            >
+              <div className="text-center">
+                <Check className="w-4 h-4 text-foreground/60 mx-auto mb-1" />
+                <span className="text-[10px] text-muted-foreground">{angle}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p className="text-[10px] text-muted-foreground text-center">4 minimum required, 8 for best accuracy</p>
       </div>
     )
   },
@@ -49,7 +52,7 @@ const steps = [
       "Feature relationship scoring",
       "Skin texture & clarity assessment"
     ],
-    timing: "45-90 seconds",
+    timing: "2-3 mins",
     visual: (
       <div className="space-y-2">
         {["Structure", "Symmetry", "Features", "Skin"].map((cat, i) => (
